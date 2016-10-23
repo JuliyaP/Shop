@@ -1,0 +1,32 @@
+*{font-family: Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", sans-serif;}
+li {
+    display: inline;
+}
+a {
+    display: inline-block;
+    font-weight: bold;
+    color: rgba(0,0,0,0.7);
+    text-decoration: none;
+    text-align: center;
+    padding-right: 30px;
+}
+div{
+    height: 35px;
+}
+h1{margin: 0px;}
+ul{
+    margin: 0px;
+}
+.head
+{
+    /*background-image: url("Images/header-background.jpg");)*/
+    background-color: black;
+    color:white;
+    border-bottom-style: groove;
+}
+pre {
+    color: rgba(0,0,0,0.6);
+    font-weight: bold;
+}
+TABLE{
+    width:100%;}
