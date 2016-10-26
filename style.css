@@ -120,3 +120,12 @@ div.main_desc {
     width: 768px;
     height: 375px;
 }
+
+div.contacts_desc {
+    margin: 36px;
+    margin-left: 19px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 566px;
+    height: 445px;
+}
