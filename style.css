@@ -109,3 +109,14 @@ TABLE{
 {
     display:block
 }
+
+
+
+div.main_desc {
+    margin: 88px;
+    margin-left: 216px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 768px;
+    height: 375px;
+}
