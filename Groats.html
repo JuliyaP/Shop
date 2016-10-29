@@ -3,65 +3,136 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>Title</title>
+    <title>GreenShop-Groats</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-<table>
-    <tr>
-        <th>Наименование продукта</th>
-        <th>ГИ</th>
-        <th>кКАл</th>
-        <th>Белки</th>
-        <th>Жиры</th>
-        <th>Углеводы</th>
-        <th>Общая оценка</th>
-    </tr>
-    <tr>
-        <td>Отруби ржаные</td>
-        <td>15</td>
-        <td>155</td>
-        <td>15</td>
-        <td>3,5</td>
-        <td>15,5</td>
-        <td>10</td>
-    </tr>
-    <tr>
-        <td>Отруби пшеничные</td>
-        <td>25</td>
-        <td>212</td>
-        <td>15</td>
-        <td>3,5</td>
-        <td>30</td>
-        <td>10</td>
-    </tr>
-    <tr>
-        <td>Гречневая крупа</td>
-        <td>25</td>
-        <td>308</td>
-        <td>12,6</td>
-        <td>3,3</td>
-        <td>57,1</td>
-        <td>9</td>
-    </tr>
-    <tr>
-        <td>Перловая крупа</td>
-        <td>25</td>
-        <td>320</td>
-        <td>9,3</td>
-        <td>1,1</td>
-        <td>73,7</td>
-        <td>9</td>
-    </tr>
-    <tr>
-        <td>Нут</td>
-        <td>30</td>
-        <td>329</td>
-        <td>20</td>
-        <td>4,3</td>
-        <td>46</td>
-        <td>8</td>
-    </tr>
-</table>
+
+<div id = "banner" class="jumbotron text-center">
+
+</div>
+<nav class="navbar navbar-default">
+    <div id ="navbar" class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Green Shop</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="Index.html">Главная</a></li>
+            <li  class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Каталог <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a class="link_nav"href="Cucumber.html">Огурцы</a></li>
+                    <li><a href="Carrot.html">Морковь</a></li>
+                    <li><a href="tomato.html">Помидоры</a></li>
+                    <li><a href="Groats.html">Крупы</a></li>
+                </ul>
+            </li>
+            <li><a href="Contacts.html">Контакты</a></li>
+
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Войти</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Регистрация</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-16">
+
+
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Наименование продукта</th>
+                    <th>ГИ</th>
+                    <th>кКАл</th>
+                    <th>Белки</th>
+                    <th>Жиры</th>
+                    <th>Углеводы</th>
+                    <th>Общая оценка</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Отруби ржаные</td>
+                    <td>15</td>
+                    <td>155</td>
+                    <td>15</td>
+                    <td>3,5</td>
+                    <td>15,5</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Отруби пшеничные</td>
+                    <td>25</td>
+                    <td>212</td>
+                    <td>15</td>
+                    <td>3,5</td>
+                    <td>30</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Гречневая крупа</td>
+                    <td>25</td>
+                    <td>308</td>
+                    <td>12,6</td>
+                    <td>3,3</td>
+                    <td>57,1</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+
+                    <td>Перловая крупа</td>
+                    <td>25</td>
+                    <td>320</td>
+                    <td>9,3</td>
+                    <td>1,1</td>
+                    <td>73,7</td>
+                    <td>9</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+
+
+                    <td>Нут</td>
+                    <td>30</td>
+                    <td>329</td>
+                    <td>20</td>
+                    <td>4,3</td>
+                    <td>46</td>
+                    <td>8</td>
+
+                </tr>
+                </tbody>
+            </table>
+        </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
