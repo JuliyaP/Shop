@@ -2,67 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>TomatoShop</title>
+
+    <title>GreenShop-Groats</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
-
+    <!-- подключение CSS файла Fancybox -->
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <!-- Подключение JS файла Fancybox -->
+    <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
 </head>
 <body>
-<header>
-<div class = 'head'>
-    Green Shop
+
+<div id = "banner" class="jumbotron text-center">
+
 </div>
-<div>
-    <nav id="primary_nav_wrap">
-        <ul>
-            <li><a href="Index.html">Home</a></li>
-            <li><a href="#">Catalog</a>
-                <ul>
-                    <li><a href="Cucumber.html">Cucumber</a></li>
-                    <li><a href="Carrot.html">Carrot</a></li>
-                    <li><a href="tomato.html">Tomato</a></li>
+<nav class="navbar navbar-default">
+    <div id ="navbar" class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Green Shop</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="Index.html">Главная</a></li>
+            <li  class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Каталог <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li ><a class="link_nav"href="Cucumber.html">Огурцы</a></li>
+                    <li ><a href="Carrot.html">Морковь</a></li>
+                    <li ><a href="tomato.html">Помидоры</a></li>
+                    <li ><a href="Groats.html">Крупы</a></li>
                 </ul>
             </li>
-            <li class="current"><a href="Contacts.html">Contact</a>
-            </li>
+            <li><a href="Contacts.html">Контакты</a></li>
+
         </ul>
-    </nav>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Войти</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Регистрация</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+
+
+<div class="row">
+    <div class="col-md-3 col-sm-4 col-xs-6">
+        <a class="fancyimage" data-fancybox-group="group" target="_blank" href="Images/Groats/1.jpg">
+
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-xs-6">
+        <a class="fancyimage" data-fancybox-group="group" target="_blank" href="Images/Groats/2.jpg">
+
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-xs-6">
+        <a class="fancyimage" data-fancybox-group="group" target="_blank" href="Images/Groats/3.jpg">
+
+        </a>
+    </div>
+
+    <div class="col-md-3 col-sm-4 col-xs-6">
+        <a class="fancyimage" data-fancybox-group="group" target="_blank" href="Images/Groats/5.jpg">
+
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-xs-6">
+        <a class="fancyimage" data-fancybox-group="group" target="_blank" href="Images/Groats/6.jpg">
+
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-xs-6">
+        <a class="fancyimage" data-fancybox-group="group" target="_blank" href="Images/Groats/7.jpg">
+
+        </a>
+    </div>
+
+
 </div>
-    </header>
-<hr>
-<div class="contacts_desc">
-    Product description
-    On sale are green, red and yellow tomatoes.
-    My English is very bad.
-    Green cucumbers in a gift.
-    Product specifications
-    Tomato round or oval.Buy now!
 
-<form>
-    <legend><span>Form</span></legend><br>
-    <label><input type="text" placeholder="FIO" required> * FIO</label><br>
-    <label><input type="email" placeholder="E-mail" required> * E-mail</label><br>
-    <label><input type="text" placeholder="Theme" required> * Theme</label><br>
-
-
-    <label><input type="tel" placeholder="Phone number"> Phone number </label><br>
-    Text  *<br>
-    <textarea cols="48" rows="10" required placeholder="Text"></textarea><br>
-</form>
-<input type="submit" value="ОК"><br>
-<input type="reset" value="Cancel"><br>
-<input type="button" value="Save ">
-
-<p><span class="req"> * </span>- is required</p>
-</div>
-<h2>Address</h2>
-roduct description
-On sale are green, red and yellow tomatoes.
-My English is very bad.
-Green cucumbers in a gift.
-Product specifications
-Tomato round or oval.Buy now!
 </body>
-
 </html>
