@@ -170,6 +170,9 @@ div.contacts_desc {
     width: 434px;
 }
 
-
+.li_pic {
+    list-style: none;
+    list-style-image: url(images/li_pic.png);
+}
 
 
