@@ -61,6 +61,15 @@ h2{
 .carousel{
     margin-top: 20px;
 }
+#myCarousel
+{
+    width: 500px;
+}
+.car_image
+{
+    width: 500px;
+    height: 300px;
+}
 
 
 
