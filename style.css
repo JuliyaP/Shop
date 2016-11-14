@@ -64,11 +64,12 @@ h2{
 #myCarousel
 {
     width: 500px;
+    height: 300px;
 }
 .car_image
 {
-    width: 500px;
-    height: 300px;
+    width: 500px; !important;
+    height: 300px; !important;
 }
 
 
