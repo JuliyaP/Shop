@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
     <!-- Подключение JS файла Fancybox -->
     <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
+    <script src="Cuc.js"></script>
+
 </head>
 <body>
 
@@ -189,27 +191,6 @@
     </div>
 </div>
 
-<script>
-    // После загрузки DOM-дерева (страницы)
-    $(function() {
-        //при нажатии на ссылку, содержащую Thumbnail
-        $('.thumbnail').click(function(e) {
-            //отменить стандартное действие браузера
-            e.preventDefault();
-            //присвоить атрибуту scr элемента img модального окна
-            //значение атрибута scr изображения, которое обёрнуто
-            //вокруг элемента a, на который нажал пользователь
-            $('#image-modal .modal-body img').attr('src', $(this).find('img').attr('src'));
-            //открыть модальное окно
-            $("#image-modal").modal('show');
-        });
-        //при нажатию на изображение внутри модального окна
-        //закрыть его (модальное окно)
-        $('#image-modal .modal-body img').on('click', function() {
-            $("#image-modal").modal('hide')
-        });
-    });
-</script>
 <div id = "main_footer"class="panel-footer">&#169; Все права защищены.</div>
 </body>
 </html>
